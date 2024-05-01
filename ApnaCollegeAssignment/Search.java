@@ -20,7 +20,7 @@ public class Search
             }
         }
         if(count<size){
-            System.out.println("Data Found...");
+            System.out.println("Data Found :");
             System.out.println("Index :"+ count);
         }
         else{
