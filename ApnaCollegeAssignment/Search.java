@@ -3,7 +3,7 @@ public class Search
 {
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
-        System.out.println("Enter the size of the Array");
+        System.out.println("Enter the size of the Array :");
         int size=input.nextInt();
         int [] userArray = new int[size];
         System.out.println("Enter the Elements of the Array :");
