@@ -24,6 +24,7 @@ public class MatrixArray
             {
                 System.out.print(userArray[i][j] + " ");
             }
+            System.out.print("\n");
         }
     }
 }
