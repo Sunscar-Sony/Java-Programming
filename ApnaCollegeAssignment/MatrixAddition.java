@@ -26,5 +26,22 @@ public class MatrixAddition
                 Matrix2[i][j]=input.nextInt();
             }
         }
+        int [][]Matrix3= new int[row][col];
+        for(int i=0;i<row;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                Matrix3[i][j]=Matrix1[i][j] + Matrix2[i][j];
+            }
+        }
+        System.out.println("Final Result :");
+        for(int i=0;i<row;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                System.out.print(Matrix3[i][j] + "  ");
+            }
+            System.out.print("\n");
+        }
     }
 }
