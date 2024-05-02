@@ -14,7 +14,9 @@ public class Strings
             char frontChar=str.charAt(front);
             char backChar=str.charAt(back);
 
-            
+            str.setCharAt(front, backChar);
+            str.setCharAt(back, frontChar);
         }
+        System.out.println(str);
     }
 }
