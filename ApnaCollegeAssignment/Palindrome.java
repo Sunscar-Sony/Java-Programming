@@ -24,7 +24,7 @@ public class Palindrome{
         int end=input.nextInt();
         for(int i=start;i<=end;i++)
         {
-            
+            palindromeNumber(i);
         }
     }
 }
