@@ -1,5 +1,6 @@
 package BitManipulation;
-import java.util.Scanner;
+import java.util.*;
+
 public class DecimalToBinary
 {
     public static void main(String[] args)
@@ -14,9 +15,10 @@ public class DecimalToBinary
                 str.insert(0,"0");
             }
             else{
-                str.insert(0,"1");
+                str.insert(0, "1");
             }
+            num/=2;
         }
         System.out.println(str);
     }
-}
+}5641
