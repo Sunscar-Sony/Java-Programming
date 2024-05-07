@@ -14,6 +14,7 @@ public class ArrayAverage{
             sum+=arr[i];
         }
         int ans=sum/n;
+        System.out.println("Result:");
         System.out.println(ans);
     }
 }
