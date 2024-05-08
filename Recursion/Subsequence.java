@@ -3,10 +3,12 @@ package Recursion;
 import java.util.Scanner;
 
 public class Subsequence{
-    public static void subsequence(String str, int index,int newStr){
+    static int count=0;
+    public static void subsequence(String str, int index,String newStr){
         //Base Case
         if(index==str.length()){
             System.out.println(newStr);
+            count+=1;
             return;
         }
         //My Task to do
@@ -20,5 +22,8 @@ public class Subsequence{
         Scanner input=new Scanner(System.in);
         System.out.println("Enter the String :");
         String str=input.nextLine();
+        System.out.println("Result:"+"\n");
+        subsequence(str,0,"");
+        System.out.println("Total count : "+count);
     }
 }
