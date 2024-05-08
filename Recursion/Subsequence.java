@@ -7,6 +7,7 @@ public class Subsequence{
         //Base Case
         if(index==str.length()){
             System.out.println(newStr);
+            return;
         }
         //My Task to do
         char current=str.charAt(index);
