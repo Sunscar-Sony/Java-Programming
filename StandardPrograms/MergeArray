@@ -1,9 +1,0 @@
-import java.util.Scanner;
-public class MergeArray
-{
-    public static void main(String[] args){
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter the length of Array1 :")
-        int n1=input.nextInt();
-    }
-}
