@@ -34,8 +34,9 @@ public class Anagram{
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
         System.out.println("Enter the First String");
-        String str1=input.nextLine();
+        String str1=input.next();
         System.out.println("Enter the Second String:");
-        String str2=input.nextLine();
+        String str2=input.next();
+        checkAnagram(str1, str2);
     }
 }
