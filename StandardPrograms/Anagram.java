@@ -5,7 +5,6 @@ public class Anagram{
     public static void checkAnagram(String str1, String str2){
         //First Marking the postiton with 1.
         if(str1.length()==str2.length()){
-            //Mapping first string
             for(int i=0;i<str1.length();i++){
                 char current=str1.charAt(i);
                 map[current-'a']=1;
