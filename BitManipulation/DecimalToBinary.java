@@ -20,6 +20,5 @@ public class DecimalToBinary
             num/=2;
         }
         System.out.println(str);
-        System.out.println("Hello World!");
     }
 }
