@@ -25,5 +25,8 @@ public class LinkedListCollection{
         list.add(input.nextInt(), input.next());
         list.add(input.nextInt(), input.next());
         System.out.println("Linked List :"+list);
+
+        int size=list.size();
+        System.out.println(size);
     }
 }
