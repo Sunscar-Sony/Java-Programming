@@ -26,6 +26,13 @@ public class LinkedListCollection{
         list.add(input.nextInt(), input.next());
         System.out.println("Linked List :"+list);
 
+        System.out.println("Deletion :");
+        list.remove(3);
+        list.removeFirst();
+        list.removeLast();
+        System.out.println(list);
+        System.out.println(list.size());
+
         int size=list.size();
         System.out.println(size);
     }
