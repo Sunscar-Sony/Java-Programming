@@ -12,10 +12,18 @@ public class LinkedListCollection{
         list.addFirst(input.next());
         list.addFirst(input.next());
         list.addFirst(input.next());
+        System.out.println("Linked List :"+list);
 
         System.out.println("Enter the Element at Last position");
         list.addLast(input.next());
         list.addLast(input.next());
         list.addLast(input.next());
+        System.out.println("Linked List :"+list);
+
+        System.out.println("Enter the Element at Specific postion");
+        list.add(input.nextInt(), input.next());
+        list.add(input.nextInt(), input.next());
+        list.add(input.nextInt(), input.next());
+        System.out.println("Linked List :"+list);
     }
 }
