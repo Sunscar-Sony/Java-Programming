@@ -32,5 +32,6 @@ public class ScratchLinkedList{
         ScratchLinkedList list = new ScratchLinkedList();
         Scanner input=new Scanner(System.in);
         list.addFirst(input.next());
+        System.
     }
 }
