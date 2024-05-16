@@ -1,4 +1,4 @@
-package LinkedList;
+kopackage LinkedList;
 import java.util.Scanner;
 
 public class ScratchLinkedList{
@@ -32,6 +32,6 @@ public class ScratchLinkedList{
         ScratchLinkedList list = new ScratchLinkedList();
         Scanner input=new Scanner(System.in);
         list.addFirst(input.next());
-        System.out.println("Hello Linked List");
+        System.out.println();
     }
 }
