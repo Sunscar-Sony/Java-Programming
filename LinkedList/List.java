@@ -12,6 +12,10 @@ public class List{
         for(int i=0;i<n;i++){
             list.add(input.nextInt());
         }
-        System.out.println("Current List :"+list);
+        System.out.println("Current List :"+list+" Size of list :"+list.size());
+        System.out.println("Enter the position to insert the element :");
+        int pos=input.nextInt();
+        list.add(pos,input.nextInt());
+        System.out.println(list+ "  "+list.size());
     }
 }
