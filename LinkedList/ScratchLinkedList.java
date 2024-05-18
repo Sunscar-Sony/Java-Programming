@@ -1,4 +1,4 @@
-kopackage LinkedList;
+package LinkedList;
 import java.util.Scanner;
 
 public class ScratchLinkedList{

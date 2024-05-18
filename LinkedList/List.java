@@ -23,5 +23,14 @@ public class List{
         //Sorting the List
         Collections.sort(list);
         System.out.println("Sorted List :"+list);
+        //Deleting the last two elements of the List
+        list.removeLast();
+        list.removeLast();
+        list.removeFirst();
+        System.out.println("Printing the List :");
+        for(int i=0;i<list.size();i++){
+            System.out.print(list.get(i)+ " ");
+        }
+
     }
 }
