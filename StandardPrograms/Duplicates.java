@@ -4,6 +4,7 @@ import java.lang.StringBuilder;
 public class Duplicates{
     public static int[] map=new int[10];
     public static void main(String[] args){
+        System.out.println(null);
         Scanner input=new Scanner(System.in);
         System.out.println("Enter the number :");
         StringBuilder str=new StringBuilder(input.next());
