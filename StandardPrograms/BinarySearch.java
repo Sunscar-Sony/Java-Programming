@@ -26,5 +26,7 @@ public class BinarySearch{
         for(int i=0;i<arr.length;i++){
             arr[i]=input.nextInt();
         }
+        System.out.println("Enter the Element to Search :");
+        int key=input.nextInt();
     }
 }
