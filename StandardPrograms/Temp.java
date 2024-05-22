@@ -10,12 +10,14 @@ public class Temp{
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
+        //Finding the greatest Element in the Array
         int greatest=0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]>greatest){
                 greatest=arr[i];
             }
         }
+        //Frequency Array for calculating the Frequency of ach element
         int[] frequency=new int[greatest+1];
         for(int i=0;i<arr.length;i++){
             frequency[arr[i]]+=1;
