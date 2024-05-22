@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Temp{
+    //Code to Equalize an Array
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
         int size=input.nextInt();
