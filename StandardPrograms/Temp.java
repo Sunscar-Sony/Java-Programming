@@ -29,6 +29,7 @@ public class Temp{
                 temp=frequency[i];
             }
         }
+        //Calculating the Result
         int result=size-temp;
         System.out.println(result);
     }
