@@ -3,6 +3,7 @@ public class Temp{
     //Code to Equalize an Array
     public static void main(String[] args){
         Scanner input=new Scanner(System.in);
+        System.out.println("Enter the Size of the Array :");
         int size=input.nextInt();
         int[] arr=new int[size];
         for(int i=0;i<size;i++){
