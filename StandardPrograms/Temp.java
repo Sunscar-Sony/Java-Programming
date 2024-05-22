@@ -22,6 +22,7 @@ public class Temp{
         for(int i=0;i<arr.length;i++){
             frequency[arr[i]]+=1;
         }
+        //Finding the greatest Element in the frequency Array
         int temp=0;
         for(int i=0;i<frequency.length;i++){
             if(frequency[i]>temp){
