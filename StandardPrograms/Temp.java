@@ -6,6 +6,7 @@ public class Temp{
         System.out.println("Enter the Size of the Array :");
         int size=input.nextInt();
         int[] arr=new int[size];
+        //Taking the input of the Array
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
