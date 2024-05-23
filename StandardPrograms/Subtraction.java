@@ -17,5 +17,6 @@ public class Subtraction{
         for(int i=0;i<m;i++){
             brr[i]=input.nextInt();
         }
+        System
     }
 }
