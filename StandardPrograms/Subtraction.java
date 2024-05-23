@@ -10,5 +10,12 @@ public class Subtraction{
         for(int i=0;i<n;i++){
             arr[i]=input.nextInt();
         }
+        System.out.println("Enter the lenght of Second Matrix");
+        int m=input.nextInt();
+        int[] brr=new int[m];
+        System.out.println("Enter the Elements int the Array :");
+        for(int i=0;i<m;i++){
+            brr[i]=input.nextInt();
+        }
     }
 }
