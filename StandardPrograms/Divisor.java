@@ -12,7 +12,7 @@ public class Divisor{
         }
         System.out.println("Enter the Divisor :");
         int divisor=input.nextInt();
-        //
+        //Updating the calue of Array
         for(int i=0;i<size;i++){
             arr[i]/=divisor;
         }
