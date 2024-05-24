@@ -6,11 +6,13 @@ public class Divisor{
         int size=input.nextInt();
         int arr[]=new int[size];
         System.out.println("Enter the Elements :");
+        //Initalizing the Array
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
         System.out.println("Enter the Divisor :");
         int divisor=input.nextInt();
+        //
         for(int i=0;i<size;i++){
             arr[i]/=divisor;
         }
