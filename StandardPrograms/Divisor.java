@@ -10,5 +10,9 @@ public class Divisor{
             arr[i]=input.nextInt();
         }
         System.out.println("Enter the Divisor :");
+        int divisor=input.nextInt();
+        for(int i=0;i<size;i++){
+            arr[i]/=divisor;
+        }
     }
 }
