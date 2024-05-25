@@ -12,6 +12,5 @@ public class ClearBit
         int bitMask=1<<pos-1;
         bitMask=~(bitMask)&num;
         System.out.println("Result :" + "\n" + bitMask);
-        System.out.println();
     }
 }
