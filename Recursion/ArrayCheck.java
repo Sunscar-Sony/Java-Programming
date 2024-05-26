@@ -28,6 +28,5 @@ public class ArrayCheck {
         }else{
             System.out.println("Array is not Strictly Sorted");
         }
-System.out.println();
     }
 }
