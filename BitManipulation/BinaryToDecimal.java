@@ -18,6 +18,6 @@ public class BinaryToDecimal
             num/=10;
         }
         System.out.println("Result :"+"\n"+ decimalNumber);
-        System.out.
+        System.out.println
     }
 }
